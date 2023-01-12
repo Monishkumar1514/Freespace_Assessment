@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.105067">
+<testcase classname="Booking a shoe in Puma Website" name="Login to the Application" time="38.105067">
+<system-out><![CDATA[Given User landed into the Application......................................passed
+When User click the Login with Email button and it navigate to Login page...passed
+And User landed on the Login page and User Enter the "monishkumar0012@gmail.com" in the email field.passed
+And User Enter the "12021998Febu*" in th password Field.....................passed
+Then User click the Login Button and User is navigated to the HomePage......passed
+When User landed on the HomePage and user click the Home Button.............passed
+And User Click the All Running Shoe button and its navigated to the All running shoe page.passed
+And User "Velocity Nitro 2 Men's Running Shoes" the Velocity Nitro  Men Running shoe.passed
+And USer click the selected shoe and customise the shoe colour to blue colour in the colour selection field.passed
+And User Select the shoe color as blue in the color selection field.........passed
+And User Select Shoe Size as 11 in the size selection options...............passed
+And User add the product to cart............................................passed
+And user need to check the product details in the viewcart and click on checkout.passed
+And User need to check the product details in the shopping cart page........passed
+And User need to checkout the selected product..............................passed
+And user need to enter the shipping details such as address, billing address etc..passed
+And user need to check the payment methods and click on mode of payment as credit card.passed
+And user need to enter the "JCB" in the credit card name  field.............passed
+And user need to enter the "3566000020000410" in the credit card number field.passed
+And user need to enter the "02/2023" in the credit card Date and  Month field.passed
+And user need to enter the "123"in the credit card cvv field................passed
+And user click the place order button in the payment page...................passed
+And user need to click on place order and validate the order rejected popup.passed
+And user need to navigate to the cart again and check whether the product is available in the cart..passed
+And user need to remove the product from the cart and verify that the cart is empty..passed
+Then user logout from the application.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

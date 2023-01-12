@@ -1,0 +1,403 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 40,
+        "name": "Login to the Application",
+        "description": "",
+        "id": "booking-a-shoe-in-puma-website;login-to-the-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 150236900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User landed into the Application.",
+            "match": {
+              "location": "Loginpage.user_landed_into_the_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 635949500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click the Login with Email button and it navigate to Login page",
+            "match": {
+              "location": "Loginpage.user_click_the_Login_with_Email_button_and_it_navigate_to_Login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 366394800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User landed on the Login page and User Enter the \"monishkumar0012@gmail.com\" in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "monishkumar0012@gmail.com",
+                  "offset": 50
+                }
+              ],
+              "location": "Loginpage.user_landed_on_the_Login_page_and_User_Enter_the_in_the_email_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275581300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Enter the \"12021998Febu*\" in th password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12021998Febu*",
+                  "offset": 16
+                }
+              ],
+              "location": "Loginpage.user_Enter_the_in_th_password_Field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207168700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the Login Button and User is navigated to the HomePage",
+            "match": {
+              "location": "Loginpage.user_click_the_Login_Button_and_User_is_navigated_to_the_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2932506500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User landed on the HomePage and user click the Home Button",
+            "match": {
+              "location": "Homepage.user_landed_on_the_HomePage_and_user_click_the_Home_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 552239100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Click the All Running Shoe button and its navigated to the All running shoe page",
+            "match": {
+              "location": "PurchasingPage.user_Click_the_All_Running_Shoe_button_and_its_navigated_to_the_All_running_shoe_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 688175600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User \"Velocity Nitro 2 Men\u0027s Running Shoes\" the Velocity Nitro  Men Running shoe",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Velocity Nitro 2 Men\u0027s Running Shoes",
+                  "offset": 6
+                }
+              ],
+              "location": "PurchasingPage.user_the_Velocity_Nitro_Men_Running_shoe(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2821311600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "USer click the selected shoe and customise the shoe colour to blue colour in the colour selection field",
+            "match": {
+              "location": "PurchasingPage.user_click_the_selected_shoe_and_customise_the_shoe_colour_to_blue_colour_in_the_colour_selection_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2029727300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Select the shoe color as blue in the color selection field",
+            "match": {
+              "location": "PurchasingPage.user_Select_the_shoe_color_as_blue_in_the_color_selection_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185563100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Select Shoe Size as 11 in the size selection options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 25
+                }
+              ],
+              "location": "PurchasingPage.user_Select_Shoe_Size_as_in_the_size_selection_options(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189329100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User add the product to cart.",
+            "match": {
+              "location": "AddToCart_Page.user_add_the_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2294075500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user need to check the product details in the viewcart and click on checkout",
+            "match": {
+              "location": "AddToCart_Page.user_need_to_check_the_product_details_in_the_viewcart_and_click_on_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192738000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User need to check the product details in the shopping cart page.",
+            "match": {
+              "location": "AddToCart_Page.user_need_to_check_the_product_details_in_the_shopping_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340498500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User need to checkout the selected product",
+            "match": {
+              "location": "AddToCart_Page.user_need_to_checkout_the_selected_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10246240400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user need to enter the shipping details such as address, billing address etc.",
+            "match": {
+              "location": "AddToCart_Page.user_need_to_enter_the_shipping_details_such_as_address_billing_address_etc()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3893275600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user need to check the payment methods and click on mode of payment as credit card",
+            "match": {
+              "location": "AddToCart_Page.user_need_to_check_the_payment_methods_and_click_on_mode_of_payment_as_credit_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 305328000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user need to enter the \"JCB\" in the credit card name  field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JCB",
+                  "offset": 24
+                }
+              ],
+              "location": "AddToCart_Page.user_need_to_enter_the_in_the_credit_card_name_field(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3304724300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user need to enter the \"3566000020000410\" in the credit card number field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3566000020000410",
+                  "offset": 24
+                }
+              ],
+              "location": "AddToCart_Page.user_need_to_enter_the_in_the_credit_card_number_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200692500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user need to enter the \"02/2023\" in the credit card Date and  Month field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "02/2023",
+                  "offset": 24
+                }
+              ],
+              "location": "AddToCart_Page.user_need_to_enter_the_in_the_credit_card_Date_and_Month_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169250000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user need to enter the \"123\"in the credit card cvv field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 24
+                }
+              ],
+              "location": "AddToCart_Page.user_need_to_enter_the_in_the_credit_card_cvv_field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258611900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user click the place order button in the payment page",
+            "match": {
+              "location": "AddToCart_Page.user_click_the_place_order_button_in_the_payment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3469229900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user need to click on place order and validate the order rejected popup",
+            "match": {
+              "location": "ConfirmationPage.user_need_to_click_on_place_order_and_validate_the_order_rejected_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 510208300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user need to navigate to the cart again and check whether the product is available in the cart.",
+            "match": {
+              "location": "ConfirmationPage.user_need_to_navigate_to_the_cart_again_and_check_whether_the_product_is_available_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 494468800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user need to remove the product from the cart and verify that the cart is empty.",
+            "match": {
+              "location": "ConfirmationPage.user_need_to_remove_the_product_from_the_cart_and_verify_that_the_cart_is_empty()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1391541900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user logout from the application.",
+            "match": {
+              "location": "ConfirmationPage.user_logout_from_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking a shoe in Puma Website",
+    "description": "",
+    "id": "booking-a-shoe-in-puma-website",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/Freespace/features/TestCases.feature"
+  }
+]
